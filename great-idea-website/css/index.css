@@ -70,48 +70,45 @@ body{
 	margin: 0 auto;
 	max-width: 1000px;
 }
-.container{
+.navigation{
 	width: 1000px;
-	background: orange;
 	margin: 0 auto;
 }
-header{
-	background: purple;
-}
 nav{
-	background: yellow;
 	text-align: left;
-	padding-right: 30px;
 	margin-top: 4%;
-
 }
-.main{
-	background: pink;
-}
-
-.left{
+nav > a{
+	margin: 0 22px 0;
 	color: grey;
+}
+.navbar{
 	font-size: 20px;
-	justify-content: space-between;
+	display: inline-block;
 }
-.left a:link {
-		text-decoration: none;
+.great{
+	display: inline-block;
+	margin-left: 14%;
 }
-#left{
-background: grey;
-display: inline-block;
-width: 49%;
-padding: 5% 15%;
-text-align: center;
+.navbar a:link {
+	text-decoration: none;
 }
-#right{
-background: aqua;
-display: inline-block;
-width: 49%;
-text-align:center;
-margin-top: 50px;
+#innov{
+	display: inline-block;
+	width: 49%;
+	padding: 5% 15%;
+	text-align: center;
+	margin-bottom: 70px;
+	vertical-align: bottom;
 }
-
+#code-img{
+	display: inline-block;
+	width: 49%;
+	text-align:center;
+	margin-top: 50px;
+	vertical-align: bottom;
+	margin-bottom: 50px;
+}
 #title{
 	font-size: 60px;
 }
@@ -119,38 +116,36 @@ button{
 	width: 125px;
 	padding: 5px;
 	font-size: 14px;
-	border: 1px solid black;
+	border: 1px solid grey;
 	background: white;
 }
 .body-top article{
-	width: 49%;
+	width: 49.5%;
 	display: inline-block;
 }
 .body-bot article{
-	width: 30%;
+	width: 33%;
 	display:inline-block;
 }
-h1{
-	font-size: 50px;
-}
 .body-top{
-	border-top: 5px solid black;
+	border-top: 1px solid black;
 	padding-top: 3%;
 	padding-bottom: 3%;
-	padding-left: 5%;
 }
-.body-img{
-background: blue;
-max-width: 100%;
+section.body-top > article{
+	padding: 0 1px 0;
+}
+
+section.body-img > img {
+	width: 100%;
 }
 .body-bot{
-	border-bottom: 5px solid black;
+	border-bottom: 1px solid black;
 	padding-top: 3%;
 	padding-bottom: 3%;
-	padding-left: 7%;
 }
-Footer{
-	padding-top: 3%;
+footer{
+	padding-top: 5%;
 	margin-bottom: 4%;
 }
 .copyright{
