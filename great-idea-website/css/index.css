@@ -16,12 +16,13 @@ article, aside, canvas, details, embed,
 figure, figcaption, footer, header, hgroup, 
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
-	margin: 0;
+	margin: 0%;
 	padding: 0;
 	border: 0;
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
+	max-width: 100%;
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
@@ -64,3 +65,90 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+body{
+	font-family: 'Titillium Web', sans-serif;
+	margin: 0 auto;
+	max-width: 1000px;
+}
+.navigation{
+	width: 1000px;
+	margin: 0 auto;
+}
+nav{
+	text-align: left;
+	margin-top: 4%;
+}
+nav > a{
+	margin: 0 22px 0;
+	color: grey;
+}
+.navbar{
+	font-size: 20px;
+	display: inline-block;
+}
+.great{
+	display: inline-block;
+	margin-left: 14%;
+}
+.navbar a:link {
+	text-decoration: none;
+}
+#innov{
+	display: inline-block;
+	width: 49%;
+	padding: 5% 15%;
+	text-align: center;
+	margin-bottom: 70px;
+	vertical-align: bottom;
+}
+#code-img{
+	display: inline-block;
+	width: 49%;
+	text-align:center;
+	margin-top: 50px;
+	vertical-align: bottom;
+	margin-bottom: 50px;
+}
+#title{
+	font-size: 60px;
+}
+button{
+	width: 125px;
+	padding: 5px;
+	font-size: 14px;
+	border: 1px solid grey;
+	background: white;
+}
+.body-top article{
+	width: 49.5%;
+	display: inline-block;
+}
+.body-bot article{
+	width: 33%;
+	display:inline-block;
+}
+.body-top{
+	border-top: 1px solid black;
+	padding-top: 3%;
+	padding-bottom: 3%;
+}
+section.body-top > article{
+	padding: 0 1px 0;
+}
+
+section.body-img > img {
+	width: 100%;
+}
+.body-bot{
+	border-bottom: 1px solid black;
+	padding-top: 3%;
+	padding-bottom: 3%;
+}
+footer{
+	padding-top: 5%;
+	margin-bottom: 4%;
+}
+.copyright{
+	text-align: center;
+	font-family: 'Solway', serif;
+}
